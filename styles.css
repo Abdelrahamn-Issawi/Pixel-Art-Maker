@@ -1,0 +1,132 @@
+body {
+    text-align: center;
+    font-family: Verdana, Bookman;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: auto auto;
+    width: 60%;
+    background-color:#eee;
+    padding-bottom: 20px;
+}
+
+form{
+    overflow: hidden;
+}
+
+form .formCont{
+    margin: 0 auto;
+    width: 600px;
+    overflow: hidden;
+}
+
+form .internal{
+    width: 300px;
+    float: left;
+}
+
+h1 {
+    font-size: 70px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    margin-top: 0;
+    color:#fff;
+    background-color: #9a2d6a;
+    text-shadow: 3px 3px #000;
+}
+
+h2{
+    text-align: left;
+    margin-left: 30px;
+}
+
+h2:nth-of-type(2){
+   display: inline;
+    float: left;
+    width: 50%;
+}
+
+#canvasLabel{
+    margin: 0;   
+    display: inline;
+}
+
+h2 i{
+   font-size: 14px;
+}
+
+span{
+    background-color: #9a2d6a;
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+    width: 230px;
+    padding: 5px;
+}
+
+table, tr, td {
+    border: 1px solid #000;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+tr {
+    height: 25px;
+}
+
+td {
+    width: 25px;
+}
+
+input[type=number] {
+    padding: 10px;
+    border-radius: 5px; 
+    background-color: #fff;
+    border: 1px solid #000;
+    margin: 10px auto;
+    font-size:18px;
+    display: block;
+    box-shadow: 3px 3px #9a2d6a;
+}
+
+input[type=button] {
+    display: block;
+    margin: 10px auto 30px;
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #000;
+    transition: all 0.15s linear;
+    box-shadow: 3px 3px #9a2d6a;
+}
+
+input[type=button]:hover {
+    background-color: #9a2d6a;
+    color: #fff;
+    border: 2px solid #9a2d6a;
+    box-shadow: none;
+}
+
+input[type=color] {
+    padding: 0px;
+    width: 100px;
+    height: 30px;
+    margin: 18px 30px 20px;
+    float: right; 
+}
+
+.clearFix{
+    clear: both;
+}
+
+hr{
+    width: 50%;
+    margin-bottom: 20px;
+}
